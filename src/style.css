@@ -8,7 +8,6 @@
 
 #main {
   background-color: bisque;
-  background-image: url(./images/pan.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -18,7 +17,7 @@
 
 #list-holder {
   background-color: white;
-  border-radius: 20px;
+  border: 2px solid black;
   min-height: 50vh;
   box-shadow: 4px 2px 10px black !important;
 }
