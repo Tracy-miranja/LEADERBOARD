@@ -6,38 +6,54 @@
     font-style: normal;
   } */
 
-#main{
-  background-color:bisque;
+#main {
+  background-color: bisque;
   background-image: url(./images/pan.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   padding: 50px;
+  margin-top: 50px;
 }
-#list-holder{
+
+#list-holder {
   background-color: white;
-  border-radius:20px;
+  border-radius: 20px;
   min-height: 50vh;
   box-shadow: 4px 2px 10px black !important;
 }
-#list-holder ul{
+
+#list-holder ul {
   list-style: none;
 }
-#score-form{
+
+#score-form {
   flex-direction: column;
   display: flex;
   align-content: end;
 }
-#cll{
+
+#cll {
   width: 100px;
   display: flex;
   margin-top: 10px;
   margin-left: 150px;
   align-self: flex-end;
 }
-#g{
+
+#g {
   background-color: aliceblue;
+  margin-top: 10px;
 }
-#s{
+
+#s {
   background-color: rgb(180, 177, 177);
+}
+
+#cent {
+  padding-left: 10px;
+}
+
+#rr {
+  margin-bottom: 20px;
 }
