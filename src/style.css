@@ -8,8 +8,8 @@
 
 #main{
   background-color:bisque;
-  /* background-image: url(./images/pokeballs__800x600.webp); */
-  background-size: cover;
+  background-image: url(./images/pan.png);
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   padding: 50px;
@@ -19,6 +19,9 @@
   border-radius:20px;
   min-height: 50vh;
   box-shadow: 4px 2px 10px black !important;
+}
+#list-holder ul{
+  list-style: none;
 }
 #score-form{
   flex-direction: column;
@@ -31,4 +34,10 @@
   margin-top: 10px;
   margin-left: 150px;
   align-self: flex-end;
+}
+#g{
+  background-color: aliceblue;
+}
+#s{
+  background-color: rgb(180, 177, 177);
 }
