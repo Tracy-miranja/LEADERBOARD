@@ -1,0 +1,61 @@
+// const createGame = async (user, score, gameId) => {
+//     const response = await fetch(`${BASE_URL}`, {
+//       method: 'POST',
+//       headers: {
+//         'Content-Type': 'application/json',
+//       },
+//       body: JSON.stringify({ name: user, score, gameId }),
+//     });
+//     const result = await response.json();
+//     localStorage.setItem('gameId', result.result);
+//   };
+
+//   const getScores = async () => {
+//     const gameId = localStorage.getItem('gameId');
+//     if (!gameId) {
+//       return;
+//     }
+//     const response = await fetch(`${BASE_URL}/${gameId}/scores`);
+//     const scores = await response.json();
+//     return scores.result;
+//   };
+
+//   const postScore = async (user, score) => {
+//     const gameId = localStorage.getItem('gameId');
+//     if (!gameId) {
+//       return;
+//     }
+//     const response = await fetch(`${BASE_URL}/${gameId}/scores`, {
+//       method: 'POST',
+//       headers: {
+//         'Content-Type': 'application/json',
+//       },
+//       body: JSON.stringify({ user, score }),
+//     });
+//     const result = await response.json();
+//     return result;
+//   };
+
+//   const refreshButton = document.getElementById('refresh');
+//   refreshButton.addEventListener('click', async () => {
+//     const scores = await getScores();
+//     const scoreList = document.getElementById('score-list');
+//     scoreList.innerHTML = '';
+//     scores.forEach((score) => {
+//       const li = document.createElement('li');
+//       li.textContent = `${score.user} - ${score.score}`;
+//       scoreList.appendChild(li);
+//     });
+//   });
+
+//   const scoreForm = document.getElementById('score-form');
+//   scoreForm.addEventListener('submit', async (event) => {
+//     event.preventDefault();
+//     const nameInput = document.getElementById('name');
+//     const scoreInput = document.getElementById('score');
+//     const user = nameInput.value;
+//     const score = scoreInput.value;
+//     await postScore(user, score);
+//     nameInput.value = '';
+//     scoreInput.value = '';
+//   });
