@@ -1,0 +1,58 @@
+/* @font-face {
+    font-family: 'MyFont';
+    src: url('./my-font.woff2') format('woff2'),
+      url('./my-font.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+  } */
+
+#main {
+  background-color: bisque;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+#list-holder {
+  background-color: white;
+  border: 2px solid black;
+  min-height: 50vh;
+  box-shadow: 4px 2px 10px black !important;
+}
+
+#list-holder ul {
+  list-style: none;
+}
+
+#score-form {
+  flex-direction: column;
+  display: flex;
+  align-content: end;
+}
+
+#cll {
+  width: 100px;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 150px;
+  align-self: flex-end;
+}
+
+#g {
+  background-color: aliceblue;
+  margin-top: 10px;
+}
+
+#s {
+  background-color: rgb(180, 177, 177);
+}
+
+#cent {
+  padding-left: 10px;
+}
+
+#rr {
+  margin-bottom: 20px;
+}
