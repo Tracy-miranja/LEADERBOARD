@@ -57,3 +57,9 @@
 #rr {
   margin-bottom: 20px;
 }
+
+h3 {
+  color: aliceblue;
+  text-shadow: 4px 2px 10px black !important;
+  box-shadow: 4px 2px 10px black !important;
+}
