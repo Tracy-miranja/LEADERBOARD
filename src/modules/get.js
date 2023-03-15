@@ -10,9 +10,5 @@ export const postScore = async (user, score) => {
     headers: {
       'Content-type': 'application/json; charset=UTF-8',
     },
-  }).then((response) => {
-    if (response.ok) {
-    //   callback(); // call the callback function if provided
-    }
   });
 };

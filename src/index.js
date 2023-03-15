@@ -25,7 +25,6 @@ submit.addEventListener('click', async (e) => {
 });
 
 refresh.addEventListener('click', async () => {
-  // fetchData();
   window.location.reload();
   const data = await fetchData();
   displayData(data);
