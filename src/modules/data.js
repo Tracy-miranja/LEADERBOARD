@@ -7,5 +7,7 @@ const displayData = (data) => {
     newScore.textContent = `${data.user} : ${data.score}`;
     scores.appendChild(newScore);
   });
+  const listHolder = document.querySelector('#list-holder');
+  listHolder.replaceChild(scores, document.querySelector('#score-list'));
 };
-module.exports = displayData;
+export default displayData;
