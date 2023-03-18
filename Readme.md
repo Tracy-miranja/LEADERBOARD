@@ -47,7 +47,7 @@ One attachment
  
 ## 🚀 Live Demo <a name="live-demo"></a>
  
-- [coming soon....]
+- - [LIVE DEMO](https://tracy-miranja.github.io/LEADERBOARD/dist/)
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
@@ -140,7 +140,7 @@ I would like to thank to all my Mricronauts partners for helping when stack and 
  
 ## 📝 License <a name="license"></a>
  
-This project is [MIT](https://github.com/Tracy-miranja/LEADERBOARD/blob/add-license-1/Licence licensed.
+This project is [MIT](https://github.com/Tracy-miranja/LEADERBOARD/blob/add-license-1/Licence licensed.)
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

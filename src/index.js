@@ -20,7 +20,7 @@ submit.addEventListener('click', async (e) => {
     score.value = '';
     await fetchData();
     const data = await fetchData();
-    displayData(data);
+    displayData(data); 
   }
 });
 
